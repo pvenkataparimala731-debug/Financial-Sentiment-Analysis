@@ -524,9 +524,7 @@ bag-of-words TF-IDF simply cannot.
 
     st.divider()
     st.markdown("""
-#### 🏗️ Project Structure
-```
-sentiment-bert/
+
 ├── src/
 │   ├── train.py          # Training pipeline (BERT + baseline)
 │   └── inference.py      # Prediction helpers
