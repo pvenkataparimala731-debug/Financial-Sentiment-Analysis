@@ -69,7 +69,7 @@ with st.sidebar:
         "against a **TF-IDF + Logistic Regression** baseline. "
         "Built with HuggingFace Transformers & PyTorch."
     )
-    st.markdown()
+    st.markdown("### target ")
 
 # ── Load models (cached) ──────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading BERT model...")
@@ -395,5 +395,5 @@ BERT's attention mechanism captures these nuances that bag-of-words TF-IDF simpl
         """)
 
     st.divider()
-    st.markdown()
+    st.markdown("### overall project")
    
