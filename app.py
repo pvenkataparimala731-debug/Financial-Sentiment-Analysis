@@ -69,7 +69,7 @@ with st.sidebar:
         "against a **TF-IDF + Logistic Regression** baseline. "
         "Built with HuggingFace Transformers & PyTorch."
     )
-    st.markdown("**Targets:** IBM · Google · J.P. Morgan")
+    st.markdown()
 
 # ── Load models (cached) ──────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading BERT model...")
@@ -395,17 +395,5 @@ BERT's attention mechanism captures these nuances that bag-of-words TF-IDF simpl
         """)
 
     st.divider()
-    st.markdown("""
-#### 🏗️ Project Structure
-```
-Financial-Sentiment-Analysis/
-├── src/
-│   ├── train.py          # Training pipeline
-│   ├── inference.py      # Prediction helpers
-│   └── prepare_data.py   # Download dataset
-├── app.py                # This Streamlit app
-├── requirements.txt
-└── README.md
-```
-    """)
+    st.markdown()
    
