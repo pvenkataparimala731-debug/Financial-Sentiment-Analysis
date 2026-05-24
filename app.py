@@ -100,7 +100,7 @@ if bert_model is None:
 st.markdown('<p class="main-header">📊 Financial Sentiment Analysis</p>', unsafe_allow_html=True)
 st.markdown(
     '<p class="sub-header">Fine-tuned DistilBERT vs TF-IDF + Logistic Regression · '
-    'IBM · Google · J.P. Morgan</p>',
+    </p>',
     unsafe_allow_html=True,
 )
 
